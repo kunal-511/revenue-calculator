@@ -131,10 +131,8 @@ Here’s an overview of the project structure:
 ├── src/
 │   ├── assets/     # Project-specific assets
 │   ├── components/ # Reusable React components
-│   ├── pages/      # Page components
 │   ├── App.tsx     # Root component
 │   ├── main.tsx    # Application entry point
-│   └── styles/     # Global styles
 ├── .gitignore      # Git ignore file
 ├── index.html      # Main HTML template
 ├── package.json    # Project configuration and dependencies
