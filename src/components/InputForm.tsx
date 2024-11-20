@@ -1,7 +1,7 @@
 import React from "react";
-import { Input } from "./ui/input";
-import { Label } from "./ui/label";
-import { Slider } from "./ui/slider";
+import { Input } from "./ui/input.js";
+import { Label } from "./ui/label.js";
+import { Slider } from "./ui/slider.js";
 interface InputFormProps {
   currentRevenue: number | null;
   setCurrentRevenue: (value: number | null) => void;

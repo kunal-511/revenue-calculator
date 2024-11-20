@@ -6,7 +6,7 @@ import {
   TableHeader,
   TableHead,
   TableRow,
-} from "./ui/table";
+} from "./ui/table.js";
 interface TableProps {
   projectedRevenue: number[];
   highestGrowthYear: number;

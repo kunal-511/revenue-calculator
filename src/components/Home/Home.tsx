@@ -5,13 +5,13 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
-} from "../ui/card";
-import { Button } from "../ui/button";
-import InputForm from "../InputForm";
-import Tables from "../Tables";
-import RevenueSummary from "../RevenueSummary";
-import Chart from "../Chart";
-import { Alert, AlertDescription, AlertTitle } from "../ui/alert";
+} from "../ui/card.js";
+import { Button } from "../ui/button.js";
+import InputForm from "../InputForm.js";
+import Tables from "../Tables.js";
+import RevenueSummary from "../RevenueSummary.js";
+import Chart from "../Chart.js";
+import { Alert, AlertDescription, AlertTitle } from "../ui/alert.js";
 import { CheckCircle2 } from "lucide-react";
 
 const Home = () => {
