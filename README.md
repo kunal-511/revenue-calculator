@@ -1,99 +1,132 @@
-Revenue Calculator Project
-This project is built with Vite and TypeScript to ensure fast development and type safety.
+# Revenue Calculator Project
 
-Table of Contents
-Requirements
-Installation
-Running the Development Server
-Building for Production
-Previewing Production Build
-Folder Structure
-Requirements
-Before running the project, ensure you have the following installed on your system:
+This project is built with **Vite** and **TypeScript** to ensure fast development and type safety.
 
-Node.js: >= 16.x
-Package Manager: npm, yarn, or pnpm (choose one)
-Installation
-Clone the repository:
+---
 
+## Table of Contents
+1. [Requirements](#requirements)
+2. [Installation](#installation)
+3. [Running the Development Server](#running-the-development-server)
+4. [Building for Production](#building-for-production)
+5. [Previewing Production Build](#previewing-production-build)
+6. [Folder Structure](#folder-structure)
 
-git clone https://github.com/kunal-511/revenue-calculator
-cd revenue-calculator
-Install dependencies:
+---
 
-If you use npm:
+## Requirements
 
+Before running the project, ensure the following tools are installed on your system:
 
-npm install
-If you use yarn:
+- **Node.js**: `>= 16.x`
+- **Package Manager**: Choose one of:
+  - npm
+  - yarn
+  - pnpm
 
+---
 
-yarn install
-If you use pnpm:
+## Installation
 
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/kunal-511/revenue-calculator
+   cd revenue-calculator
+   ```
 
+2. Install dependencies:
 
-pnpm install
-Running the Development Server
+   Using **npm**:
+   ```bash
+   npm install
+   ```
+
+   Using **yarn**:
+   ```bash
+   yarn install
+   ```
+
+   Using **pnpm**:
+   ```bash
+   pnpm install
+   ```
+
+---
+
+## Running the Development Server
+
 To start the development server, run:
 
-Using npm:
-
-
+Using **npm**:
+```bash
 npm run dev
-Using yarn:
+```
 
-
+Using **yarn**:
+```bash
 yarn dev
-Using pnpm:
+```
 
-
+Using **pnpm**:
+```bash
 pnpm dev
-Open http://localhost:5173 in your browser to view the application.
+```
 
-Building for Production
+Open [http://localhost:5173](http://localhost:5173) in your browser to view the application.
+
+---
+
+## Building for Production
+
 To create a production build, use:
 
-Using npm:
-
-
-
+Using **npm**:
+```bash
 npm run build
-Using yarn:
+```
 
-
-
+Using **yarn**:
+```bash
 yarn build
-Using pnpm:
+```
 
-
-
+Using **pnpm**:
+```bash
 pnpm build
-The production-ready files will be located in the dist folder.
+```
 
-Previewing Production Build
+The production-ready files will be located in the `dist` folder.
+
+---
+
+## Previewing Production Build
+
 To preview the production build locally:
 
-Using npm:
-
-
-
+Using **npm**:
+```bash
 npm run preview
-Using yarn:
+```
 
-bash
+Using **yarn**:
+```bash
 yarn preview
-Using pnpm:
+```
 
-
+Using **pnpm**:
+```bash
 pnpm preview
-This will serve the files from the dist folder.
+```
 
-Folder Structure
-Here’s a general overview of the project structure:
+This will serve the files from the `dist` folder.
 
+---
 
+## Folder Structure
 
+Here’s an overview of the project structure:
+
+```
 ├── public/         # Static assets
 ├── src/
 │   ├── assets/     # Project-specific assets
@@ -107,3 +140,5 @@ Here’s a general overview of the project structure:
 ├── package.json    # Project configuration and dependencies
 ├── tsconfig.json   # TypeScript configuration
 ├── vite.config.ts  # Vite configuration
+```
+
