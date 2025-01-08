@@ -2,12 +2,12 @@
 
 # Variables
 SERVER_USER="ubuntu"                # Replace with your EC2 user, e.g., ubuntu or ec2-user
-SERVER_IP="3.107.188.16"           # Replace with your EC2 instance's public IP
+SERVER_IP="3.107.76.165"           # Replace with your EC2 instance's public IP
 APP_NAME="revenue-calc"            # Name of your app
 REMOTE_DIR="/var/www/$APP_NAME"    # Deployment directory on the server
 LOCAL_BUILD_DIR="dist"             # Vite's build directory
-NODE_VERSION="22"                  # Node.js version to install (e.g., 16)
-SSH_KEY_PATH="$HOME/test.pem"      # Path to your private SSH key for EC2 access
+NODE_VERSION="20"                  # Node.js version to install (e.g., 16)
+SSH_KEY_PATH="$HOME/jan8.pem"      # Path to your private SSH key for EC2 access
 
 # Step 1: Build the React Vite app
 echo "Building the React Vite app..."
